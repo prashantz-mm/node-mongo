@@ -1,0 +1,31 @@
+
+### Get All Posts
+GET http://localhost:3000/api/post
+
+
+### Get A Post
+GET http://localhost:3000/api/post/63a3eb6287803de8ee22c952
+
+
+
+### Post a Post
+POST http://localhost:3000/api/post
+Content-Type: application/json
+
+{
+    "title": "T5",
+    "dscription": "D5",
+    "likes": 5
+}
+
+
+### Update A POST
+PUT http://localhost:3000/api/post/63a3f2b597f89fc0a9f7a40e
+Content-Type: application/json
+
+{
+    "title": "Updated T6 Again"
+}
+
+### DELETE A Post
+DELETE http://localhost:3000/api/post/63a3f1f70055a8bced70ac83
